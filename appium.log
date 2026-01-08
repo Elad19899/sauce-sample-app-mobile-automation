@@ -1,12 +1,13 @@
-2026-01-08 11:44:34:271 [Appium] Welcome to Appium v2.19.0 (REV 6669e91bd8187ae9efbf110e31fc4e4d7b79011f)
-2026-01-08 11:44:34:272 [Appium] The autodetected Appium home path: /Users/eladyerushalmi/.appium
-2026-01-08 11:44:34:272 [Appium] Attempting to load driver uiautomator2...
-2026-01-08 11:44:34:274 [Appium] Requiring driver at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/build/index.js
-2026-01-08 11:44:34:598 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.325s
-2026-01-08 11:44:34:605 [Appium] Appium REST http interface listener started on http://0.0.0.0:4723
-2026-01-08 11:44:34:605 [Appium] You can provide the following URLs in your client code to connect to this server:
+2026-01-08 12:39:24:486 [Appium] Welcome to Appium v2.19.0 (REV 6669e91bd8187ae9efbf110e31fc4e4d7b79011f)
+2026-01-08 12:39:24:487 [Appium] The autodetected Appium home path: /Users/eladyerushalmi/.appium
+2026-01-08 12:39:24:487 [Appium] Attempting to load driver uiautomator2...
+2026-01-08 12:39:24:489 [Appium] Requiring driver at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2026-01-08 12:39:24:881 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.392s
+2026-01-08 12:39:24:890 [Appium] Appium REST http interface listener started on http://0.0.0.0:4723
+2026-01-08 12:39:24:891 [Appium] You can provide the following URLs in your client code to connect to this server:
 	http://127.0.0.1:4723/ (only accessible from the same host)
 	http://192.168.1.27:4723/
-2026-01-08 11:44:34:606 [Appium] Available drivers:
-2026-01-08 11:44:34:606 [Appium]   - uiautomator2@2.42.1 (automationName 'UiAutomator2')
-2026-01-08 11:44:34:606 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2026-01-08 12:39:24:891 [Appium] Available drivers:
+2026-01-08 12:39:24:891 [Appium]   - uiautomator2@2.42.1 (automationName 'UiAutomator2')
+2026-01-08 12:39:24:891 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2026-01-08 12:39:35:945 [Appium] Received SIGINT - shutting down

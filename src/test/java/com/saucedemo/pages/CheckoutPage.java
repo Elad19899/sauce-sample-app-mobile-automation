@@ -27,18 +27,19 @@ public class CheckoutPage extends BasePage {
     }
 
     public void finishCheckout() {
-        // Here we might want to scroll down if FINISH is not visible, but for MVP let's assume it works or use logic
+        // Here we might want to scroll down if FINISH is not visible, but for MVP let's
+        // assume it works or use logic
         // UiScrollable logic is specific to Android.
         try {
-             click(finishButton);
+            click(finishButton);
         } catch (Exception e) {
-             // Basic swipe or try to find it
-             // For now assume it is visible or we are on large screen.
-             // If not, we might need a scroll helper.
-             // Scroll to text "FINISH"
-             driver.findElement(AppiumBy.androidUIAutomator(
-                "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"FINISH\"))"));
-             click(finishButton);
+            // Basic swipe or try to find it
+            // For now assume it is visible or we are on large screen.
+            // If not, we might need a scroll helper.
+            // Scroll to text "FINISH"
+            driver.findElement(AppiumBy.androidUIAutomator(
+                    "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"FINISH\"))"));
+            click(finishButton);
         }
     }
 

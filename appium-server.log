@@ -1,0 +1,314 @@
+2026-01-08 12:01:42:864 [Appium] Welcome to Appium v2.19.0 (REV 6669e91bd8187ae9efbf110e31fc4e4d7b79011f)
+2026-01-08 12:01:42:865 [Appium] The autodetected Appium home path: /Users/eladyerushalmi/.appium
+2026-01-08 12:01:42:865 [Appium] Attempting to load driver uiautomator2...
+2026-01-08 12:01:42:867 [Appium] Requiring driver at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2026-01-08 12:01:43:224 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.358s
+2026-01-08 12:01:43:231 [Appium] Appium REST http interface listener started on http://0.0.0.0:4723
+2026-01-08 12:01:43:231 [Appium] You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:4723/ (only accessible from the same host)
+	http://192.168.1.27:4723/
+2026-01-08 12:01:43:231 [Appium] Available drivers:
+2026-01-08 12:01:43:232 [Appium]   - uiautomator2@2.42.1 (automationName 'UiAutomator2')
+2026-01-08 12:01:43:232 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2026-01-08 12:01:59:098 [HTTP] Request idempotency key: d3c27dad-4b02-4a40-b058-6e5988f8aa84
+2026-01-08 12:01:59:104 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}}
+2026-01-08 12:01:59:105 [AppiumDriver@b68d] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}]
+2026-01-08 12:01:59:105 [AppiumDriver@b68d] Event 'newSessionRequested' logged at 1767873719105 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:106 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+2026-01-08 12:01:59:106 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2026-01-08 12:01:59:106 [Appium] Will require it at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver
+2026-01-08 12:01:59:108 [Appium] Requiring driver at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2026-01-08 12:01:59:109 [AppiumDriver@b68d] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.42.1) session
+2026-01-08 12:01:59:109 [AppiumDriver@b68d] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2026-01-08 12:01:59:109 [AppiumDriver@b68d] Appium's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:109 [AppiumDriver@b68d] AndroidUiautomator2Driver's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:110 [38;5;-155m[AndroidUiautomator2Driver@269e] 
+2026-01-08 12:01:59:110 [38;5;-155m[AndroidUiautomator2Driver@269e] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:noReset": false,
+    "appium:appActivity": "com.saucelabs.mydemoapp.android.view.activities.SplashActivity",
+    "appium:deviceName": "emulator-5554",
+    "appium:automationName": "UiAutomator2",
+    "appium:fullReset": false,
+    "appium:app": "/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk",
+    "appium:appPackage": "com.saucelabs.mydemoapp.android"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2026-01-08 12:01:59:112 [ad0202c0][38;5;-155m[AndroidUiautomator2Driver@269e] Session created with session id: ad0202c0-e3c6-43bf-baf1-4a2e4945e383
+2026-01-08 12:01:59:113 [ad0202c0][BaseDriver] Using local app '/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk'
+2026-01-08 12:01:59:171 [ad0202c0][38;5;-155m[AndroidUiautomator2Driver@269e] Checking whether app is actually present
+2026-01-08 12:01:59:172 [ad0202c0][38;5;-155m[AndroidUiautomator2Driver@269e] Deleting UiAutomator2 session
+2026-01-08 12:01:59:172 [ad0202c0][38;5;-155m[AndroidUiautomator2Driver@269e] Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+2026-01-08 12:01:59:172 [ad0202c0][AppiumDriver@b68d] Event 'newSessionStarted' logged at 1767873719172 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:188 [ad0202c0][AppiumDriver@b68d] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+    at requireSdkRoot (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/helpers.js:82:11)
+    at Function.createADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/adb.ts:82:39)
+    at Object.createBaseADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:290:22)
+    at Object.getDeviceInfoFromCaps (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:366:38)
+    at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:425:42)
+    at AndroidUiautomator2Driver.createSession (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:299:33)
+    at AppiumDriver.createSession (/Users/eladyerushalmi/.nvm/versions/node/v22.4.0/lib/node_modules/appium/lib/appium.js:379:35)
+2026-01-08 12:01:59:194 [ad0202c0][HTTP] <-- POST /session 500 89 ms - 892 
+2026-01-08 12:01:59:269 [HTTP] Request idempotency key: f3b95eb0-fee1-47a8-8e67-700f42ba8fc4
+2026-01-08 12:01:59:270 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}}
+2026-01-08 12:01:59:270 [AppiumDriver@b68d] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}]
+2026-01-08 12:01:59:270 [AppiumDriver@b68d] Event 'newSessionRequested' logged at 1767873719270 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:270 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+2026-01-08 12:01:59:270 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2026-01-08 12:01:59:270 [Appium] Will require it at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver
+2026-01-08 12:01:59:270 [Appium] Requiring driver at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2026-01-08 12:01:59:271 [AppiumDriver@b68d] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.42.1) session
+2026-01-08 12:01:59:271 [AppiumDriver@b68d] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2026-01-08 12:01:59:271 [AppiumDriver@b68d] Appium's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:271 [AppiumDriver@b68d] AndroidUiautomator2Driver's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:271 [38;5;-154m[AndroidUiautomator2Driver@71c2] 
+2026-01-08 12:01:59:271 [38;5;-154m[AndroidUiautomator2Driver@71c2] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:noReset": false,
+    "appium:appActivity": "com.saucelabs.mydemoapp.android.view.activities.SplashActivity",
+    "appium:deviceName": "emulator-5554",
+    "appium:automationName": "UiAutomator2",
+    "appium:fullReset": false,
+    "appium:app": "/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk",
+    "appium:appPackage": "com.saucelabs.mydemoapp.android"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2026-01-08 12:01:59:272 [5749b545][38;5;-154m[AndroidUiautomator2Driver@71c2] Session created with session id: 5749b545-b046-4b08-adfc-6c89b4a04042
+2026-01-08 12:01:59:272 [5749b545][BaseDriver] Using local app '/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk'
+2026-01-08 12:01:59:300 [5749b545][38;5;-154m[AndroidUiautomator2Driver@71c2] Checking whether app is actually present
+2026-01-08 12:01:59:300 [5749b545][38;5;-154m[AndroidUiautomator2Driver@71c2] Deleting UiAutomator2 session
+2026-01-08 12:01:59:301 [5749b545][38;5;-154m[AndroidUiautomator2Driver@71c2] Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+2026-01-08 12:01:59:301 [5749b545][AppiumDriver@b68d] Event 'newSessionStarted' logged at 1767873719301 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:301 [5749b545][AppiumDriver@b68d] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+    at requireSdkRoot (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/helpers.js:82:11)
+    at Function.createADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/adb.ts:82:39)
+    at Object.createBaseADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:290:22)
+    at Object.getDeviceInfoFromCaps (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:366:38)
+    at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:425:42)
+    at AndroidUiautomator2Driver.createSession (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:299:33)
+    at AppiumDriver.createSession (/Users/eladyerushalmi/.nvm/versions/node/v22.4.0/lib/node_modules/appium/lib/appium.js:379:35)
+2026-01-08 12:01:59:301 [5749b545][HTTP] <-- POST /session 500 32 ms - 892 
+2026-01-08 12:01:59:321 [HTTP] Request idempotency key: 5e9f5212-4986-4b86-ab9f-066d6a66f54a
+2026-01-08 12:01:59:322 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}}
+2026-01-08 12:01:59:322 [AppiumDriver@b68d] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}]
+2026-01-08 12:01:59:322 [AppiumDriver@b68d] Event 'newSessionRequested' logged at 1767873719322 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:322 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+2026-01-08 12:01:59:322 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2026-01-08 12:01:59:322 [Appium] Will require it at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver
+2026-01-08 12:01:59:323 [Appium] Requiring driver at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2026-01-08 12:01:59:323 [AppiumDriver@b68d] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.42.1) session
+2026-01-08 12:01:59:323 [AppiumDriver@b68d] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2026-01-08 12:01:59:323 [AppiumDriver@b68d] Appium's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:323 [AppiumDriver@b68d] AndroidUiautomator2Driver's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:323 [38;5;-120m[AndroidUiautomator2Driver@cd59] 
+2026-01-08 12:01:59:323 [38;5;-120m[AndroidUiautomator2Driver@cd59] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:noReset": false,
+    "appium:appActivity": "com.saucelabs.mydemoapp.android.view.activities.SplashActivity",
+    "appium:deviceName": "emulator-5554",
+    "appium:automationName": "UiAutomator2",
+    "appium:fullReset": false,
+    "appium:app": "/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk",
+    "appium:appPackage": "com.saucelabs.mydemoapp.android"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2026-01-08 12:01:59:324 [f9737516][38;5;-120m[AndroidUiautomator2Driver@cd59] Session created with session id: f9737516-aafb-4007-884d-480237cd03b1
+2026-01-08 12:01:59:324 [f9737516][BaseDriver] Using local app '/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk'
+2026-01-08 12:01:59:346 [f9737516][38;5;-120m[AndroidUiautomator2Driver@cd59] Checking whether app is actually present
+2026-01-08 12:01:59:347 [f9737516][38;5;-120m[AndroidUiautomator2Driver@cd59] Deleting UiAutomator2 session
+2026-01-08 12:01:59:347 [f9737516][38;5;-120m[AndroidUiautomator2Driver@cd59] Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+2026-01-08 12:01:59:347 [f9737516][AppiumDriver@b68d] Event 'newSessionStarted' logged at 1767873719347 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:347 [f9737516][AppiumDriver@b68d] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+    at requireSdkRoot (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/helpers.js:82:11)
+    at Function.createADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/adb.ts:82:39)
+    at Object.createBaseADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:290:22)
+    at Object.getDeviceInfoFromCaps (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:366:38)
+    at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:425:42)
+    at AndroidUiautomator2Driver.createSession (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:299:33)
+    at AppiumDriver.createSession (/Users/eladyerushalmi/.nvm/versions/node/v22.4.0/lib/node_modules/appium/lib/appium.js:379:35)
+2026-01-08 12:01:59:348 [f9737516][HTTP] <-- POST /session 500 26 ms - 892 
+2026-01-08 12:01:59:356 [HTTP] Request idempotency key: f75a0ece-e6af-47ee-a5a4-4f3f3e429644
+2026-01-08 12:01:59:356 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}}
+2026-01-08 12:01:59:356 [AppiumDriver@b68d] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}]
+2026-01-08 12:01:59:356 [AppiumDriver@b68d] Event 'newSessionRequested' logged at 1767873719356 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:356 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+2026-01-08 12:01:59:356 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2026-01-08 12:01:59:356 [Appium] Will require it at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver
+2026-01-08 12:01:59:357 [Appium] Requiring driver at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2026-01-08 12:01:59:357 [AppiumDriver@b68d] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.42.1) session
+2026-01-08 12:01:59:357 [AppiumDriver@b68d] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2026-01-08 12:01:59:357 [AppiumDriver@b68d] Appium's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:357 [AppiumDriver@b68d] AndroidUiautomator2Driver's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:357 [38;5;-180m[AndroidUiautomator2Driver@c81a] 
+2026-01-08 12:01:59:357 [38;5;-180m[AndroidUiautomator2Driver@c81a] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:noReset": false,
+    "appium:appActivity": "com.saucelabs.mydemoapp.android.view.activities.SplashActivity",
+    "appium:deviceName": "emulator-5554",
+    "appium:automationName": "UiAutomator2",
+    "appium:fullReset": false,
+    "appium:app": "/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk",
+    "appium:appPackage": "com.saucelabs.mydemoapp.android"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2026-01-08 12:01:59:358 [7bc6d9b4][38;5;-180m[AndroidUiautomator2Driver@c81a] Session created with session id: 7bc6d9b4-2d71-483c-8923-ac3827352120
+2026-01-08 12:01:59:358 [7bc6d9b4][BaseDriver] Using local app '/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk'
+2026-01-08 12:01:59:382 [7bc6d9b4][38;5;-180m[AndroidUiautomator2Driver@c81a] Checking whether app is actually present
+2026-01-08 12:01:59:383 [7bc6d9b4][38;5;-180m[AndroidUiautomator2Driver@c81a] Deleting UiAutomator2 session
+2026-01-08 12:01:59:383 [7bc6d9b4][38;5;-180m[AndroidUiautomator2Driver@c81a] Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+2026-01-08 12:01:59:383 [7bc6d9b4][AppiumDriver@b68d] Event 'newSessionStarted' logged at 1767873719383 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:383 [7bc6d9b4][AppiumDriver@b68d] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+    at requireSdkRoot (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/helpers.js:82:11)
+    at Function.createADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/adb.ts:82:39)
+    at Object.createBaseADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:290:22)
+    at Object.getDeviceInfoFromCaps (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:366:38)
+    at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:425:42)
+    at AndroidUiautomator2Driver.createSession (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:299:33)
+    at AppiumDriver.createSession (/Users/eladyerushalmi/.nvm/versions/node/v22.4.0/lib/node_modules/appium/lib/appium.js:379:35)
+2026-01-08 12:01:59:384 [7bc6d9b4][HTTP] <-- POST /session 500 27 ms - 892 
+2026-01-08 12:01:59:395 [HTTP] Request idempotency key: f752f168-cf51-4389-aa55-424b8038c813
+2026-01-08 12:01:59:395 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}}
+2026-01-08 12:01:59:395 [AppiumDriver@b68d] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}]
+2026-01-08 12:01:59:395 [AppiumDriver@b68d] Event 'newSessionRequested' logged at 1767873719395 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:396 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+2026-01-08 12:01:59:396 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2026-01-08 12:01:59:396 [Appium] Will require it at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver
+2026-01-08 12:01:59:396 [Appium] Requiring driver at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2026-01-08 12:01:59:396 [AppiumDriver@b68d] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.42.1) session
+2026-01-08 12:01:59:396 [AppiumDriver@b68d] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2026-01-08 12:01:59:396 [AppiumDriver@b68d] Appium's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:396 [AppiumDriver@b68d] AndroidUiautomator2Driver's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:397 [38;5;-125m[AndroidUiautomator2Driver@c995] 
+2026-01-08 12:01:59:397 [38;5;-125m[AndroidUiautomator2Driver@c995] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:noReset": false,
+    "appium:appActivity": "com.saucelabs.mydemoapp.android.view.activities.SplashActivity",
+    "appium:deviceName": "emulator-5554",
+    "appium:automationName": "UiAutomator2",
+    "appium:fullReset": false,
+    "appium:app": "/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk",
+    "appium:appPackage": "com.saucelabs.mydemoapp.android"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2026-01-08 12:01:59:398 [8e2b6c36][38;5;-125m[AndroidUiautomator2Driver@c995] Session created with session id: 8e2b6c36-f420-4858-8797-14ef9a425911
+2026-01-08 12:01:59:398 [8e2b6c36][BaseDriver] Using local app '/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk'
+2026-01-08 12:01:59:424 [8e2b6c36][38;5;-125m[AndroidUiautomator2Driver@c995] Checking whether app is actually present
+2026-01-08 12:01:59:424 [8e2b6c36][38;5;-125m[AndroidUiautomator2Driver@c995] Deleting UiAutomator2 session
+2026-01-08 12:01:59:424 [8e2b6c36][38;5;-125m[AndroidUiautomator2Driver@c995] Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+2026-01-08 12:01:59:424 [8e2b6c36][AppiumDriver@b68d] Event 'newSessionStarted' logged at 1767873719424 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:424 [8e2b6c36][AppiumDriver@b68d] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+    at requireSdkRoot (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/helpers.js:82:11)
+    at Function.createADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/adb.ts:82:39)
+    at Object.createBaseADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:290:22)
+    at Object.getDeviceInfoFromCaps (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:366:38)
+    at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:425:42)
+    at AndroidUiautomator2Driver.createSession (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:299:33)
+    at AppiumDriver.createSession (/Users/eladyerushalmi/.nvm/versions/node/v22.4.0/lib/node_modules/appium/lib/appium.js:379:35)
+2026-01-08 12:01:59:425 [8e2b6c36][HTTP] <-- POST /session 500 29 ms - 892 
+2026-01-08 12:01:59:431 [HTTP] Request idempotency key: c41d08e0-5fcd-4d30-b15f-19e8c06bb5d7
+2026-01-08 12:01:59:432 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}}
+2026-01-08 12:01:59:432 [AppiumDriver@b68d] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}]
+2026-01-08 12:01:59:432 [AppiumDriver@b68d] Event 'newSessionRequested' logged at 1767873719432 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:432 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+2026-01-08 12:01:59:432 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2026-01-08 12:01:59:432 [Appium] Will require it at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver
+2026-01-08 12:01:59:433 [Appium] Requiring driver at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2026-01-08 12:01:59:433 [AppiumDriver@b68d] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.42.1) session
+2026-01-08 12:01:59:433 [AppiumDriver@b68d] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2026-01-08 12:01:59:433 [AppiumDriver@b68d] Appium's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:433 [AppiumDriver@b68d] AndroidUiautomator2Driver's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:433 [38;5;-111m[AndroidUiautomator2Driver@e9db] 
+2026-01-08 12:01:59:433 [38;5;-111m[AndroidUiautomator2Driver@e9db] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:noReset": false,
+    "appium:appActivity": "com.saucelabs.mydemoapp.android.view.activities.SplashActivity",
+    "appium:deviceName": "emulator-5554",
+    "appium:automationName": "UiAutomator2",
+    "appium:fullReset": false,
+    "appium:app": "/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk",
+    "appium:appPackage": "com.saucelabs.mydemoapp.android"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2026-01-08 12:01:59:434 [912f765f][38;5;-111m[AndroidUiautomator2Driver@e9db] Session created with session id: 912f765f-8dce-41ed-8192-6982dbf57c53
+2026-01-08 12:01:59:434 [912f765f][BaseDriver] Using local app '/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk'
+2026-01-08 12:01:59:454 [912f765f][38;5;-111m[AndroidUiautomator2Driver@e9db] Checking whether app is actually present
+2026-01-08 12:01:59:455 [912f765f][38;5;-111m[AndroidUiautomator2Driver@e9db] Deleting UiAutomator2 session
+2026-01-08 12:01:59:455 [912f765f][38;5;-111m[AndroidUiautomator2Driver@e9db] Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+2026-01-08 12:01:59:455 [912f765f][AppiumDriver@b68d] Event 'newSessionStarted' logged at 1767873719455 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:455 [912f765f][AppiumDriver@b68d] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+    at requireSdkRoot (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/helpers.js:82:11)
+    at Function.createADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/adb.ts:82:39)
+    at Object.createBaseADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:290:22)
+    at Object.getDeviceInfoFromCaps (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:366:38)
+    at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:425:42)
+    at AndroidUiautomator2Driver.createSession (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:299:33)
+    at AppiumDriver.createSession (/Users/eladyerushalmi/.nvm/versions/node/v22.4.0/lib/node_modules/appium/lib/appium.js:379:35)
+2026-01-08 12:01:59:455 [912f765f][HTTP] <-- POST /session 500 24 ms - 892 
+2026-01-08 12:01:59:464 [HTTP] Request idempotency key: 0afb1afe-b0fd-4b1f-a4c7-c7cc0ba0d7ca
+2026-01-08 12:01:59:464 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}}
+2026-01-08 12:01:59:464 [AppiumDriver@b68d] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:noReset":false,"appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity","appium:deviceName":"emulator-5554","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:fullReset":false,"appium:app":"/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk","appium:appPackage":"com.saucelabs.mydemoapp.android"}]}]
+2026-01-08 12:01:59:464 [AppiumDriver@b68d] Event 'newSessionRequested' logged at 1767873719464 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:464 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+2026-01-08 12:01:59:465 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2026-01-08 12:01:59:465 [Appium] Will require it at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver
+2026-01-08 12:01:59:465 [Appium] Requiring driver at /Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2026-01-08 12:01:59:465 [AppiumDriver@b68d] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.42.1) session
+2026-01-08 12:01:59:465 [AppiumDriver@b68d] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2026-01-08 12:01:59:465 [AppiumDriver@b68d] Appium's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:465 [AppiumDriver@b68d] AndroidUiautomator2Driver's BaseDriver version is 9.18.0
+2026-01-08 12:01:59:466 [38;5;-167m[AndroidUiautomator2Driver@479b] 
+2026-01-08 12:01:59:466 [38;5;-167m[AndroidUiautomator2Driver@479b] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:noReset": false,
+    "appium:appActivity": "com.saucelabs.mydemoapp.android.view.activities.SplashActivity",
+    "appium:deviceName": "emulator-5554",
+    "appium:automationName": "UiAutomator2",
+    "appium:fullReset": false,
+    "appium:app": "/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk",
+    "appium:appPackage": "com.saucelabs.mydemoapp.android"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2026-01-08 12:01:59:466 [0f610cfb][38;5;-167m[AndroidUiautomator2Driver@479b] Session created with session id: 0f610cfb-3f17-4279-bdc7-8910542f36c4
+2026-01-08 12:01:59:466 [0f610cfb][BaseDriver] Using local app '/Users/eladyerushalmi/Documents/sauce-sample-app-mobile-automation/src/test/resources/apps/mda.apk'
+2026-01-08 12:01:59:487 [0f610cfb][38;5;-167m[AndroidUiautomator2Driver@479b] Checking whether app is actually present
+2026-01-08 12:01:59:487 [0f610cfb][38;5;-167m[AndroidUiautomator2Driver@479b] Deleting UiAutomator2 session
+2026-01-08 12:01:59:487 [0f610cfb][38;5;-167m[AndroidUiautomator2Driver@479b] Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+2026-01-08 12:01:59:488 [0f610cfb][AppiumDriver@b68d] Event 'newSessionStarted' logged at 1767873719488 (14:01:59 GMT+0200 (Israel Standard Time))
+2026-01-08 12:01:59:488 [0f610cfb][AppiumDriver@b68d] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+    at requireSdkRoot (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/helpers.js:82:11)
+    at Function.createADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/adb.ts:82:39)
+    at Object.createBaseADB (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:290:22)
+    at Object.getDeviceInfoFromCaps (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/helpers/android.ts:366:38)
+    at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:425:42)
+    at AndroidUiautomator2Driver.createSession (/Users/eladyerushalmi/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:299:33)
+    at AppiumDriver.createSession (/Users/eladyerushalmi/.nvm/versions/node/v22.4.0/lib/node_modules/appium/lib/appium.js:379:35)
+2026-01-08 12:01:59:488 [0f610cfb][HTTP] <-- POST /session 500 24 ms - 892 
+2026-01-08 12:02:12:087 [Appium] Received SIGINT - shutting down
