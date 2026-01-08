@@ -14,21 +14,21 @@ public class CheckoutTest extends BaseTest {
     public void testBasicCheckout() {
         LoginPage loginPage = new LoginPage();
         loginPage.login("standard_user", "secret_sauce");
-        
+
         CatalogPage catalogPage = new CatalogPage();
         catalogPage.selectFirstProduct();
-        
+
         ProductDetailsPage detailsPage = new ProductDetailsPage();
         detailsPage.addToCart();
         detailsPage.goToCart();
-        
+
         CartPage cartPage = new CartPage();
         cartPage.checkout();
-        
+
         CheckoutPage checkoutPage = new CheckoutPage();
         checkoutPage.enterShippingDetails("John", "Doe", "12345");
         checkoutPage.finishCheckout();
-        
+
         Assert.assertTrue(checkoutPage.isOrderComplete(), "Order should be completed");
     }
 }

@@ -13,14 +13,14 @@ public class CartTest extends BaseTest {
     public void testAddItemToCart() {
         LoginPage loginPage = new LoginPage();
         loginPage.login("standard_user", "secret_sauce");
-        
+
         CatalogPage catalogPage = new CatalogPage();
         catalogPage.selectFirstProduct();
-        
+
         ProductDetailsPage detailsPage = new ProductDetailsPage();
         detailsPage.addToCart();
         detailsPage.goToCart();
-        
+
         CartPage cartPage = new CartPage();
         Assert.assertTrue(cartPage.isItemDisplayed(), "Item should be in cart");
     }
@@ -29,17 +29,17 @@ public class CartTest extends BaseTest {
     public void testRemoveItemFromCart() {
         LoginPage loginPage = new LoginPage();
         loginPage.login("standard_user", "secret_sauce");
-        
+
         CatalogPage catalogPage = new CatalogPage();
         catalogPage.selectFirstProduct();
-        
+
         ProductDetailsPage detailsPage = new ProductDetailsPage();
         detailsPage.addToCart();
         detailsPage.goToCart();
-        
+
         CartPage cartPage = new CartPage();
         cartPage.removeItem();
-        
+
         Assert.assertFalse(cartPage.isItemDisplayed(), "Item should be removed from cart");
     }
 }

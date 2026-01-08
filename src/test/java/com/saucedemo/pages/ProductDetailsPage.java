@@ -17,11 +17,11 @@ public class ProductDetailsPage extends BasePage {
     public void removeFromCart() {
         click(removeButton);
     }
-    
+
     public void goToCart() {
         click(cartIcon);
     }
-    
+
     public boolean isAddToCartDisplayed() {
         return isDisplayed(addToCartButton);
     }

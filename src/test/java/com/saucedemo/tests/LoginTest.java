@@ -11,7 +11,7 @@ public class LoginTest extends BaseTest {
     public void testSuccessfulLogin() {
         LoginPage loginPage = new LoginPage();
         loginPage.login("standard_user", "secret_sauce");
-        
+
         CatalogPage catalogPage = new CatalogPage();
         Assert.assertTrue(catalogPage.isPageLoaded(), "Catalog page should be loaded after login");
     }
@@ -20,8 +20,9 @@ public class LoginTest extends BaseTest {
     public void testInvalidLogin() {
         LoginPage loginPage = new LoginPage();
         loginPage.login("invalid_user", "wrong_password");
-        
+
         Assert.assertTrue(loginPage.isErrorMessageDisplayed(), "Error message should be displayed");
-        Assert.assertTrue(loginPage.getErrorMessage().contains("Username and password do not match"), "Error message text mismatch");
+        Assert.assertTrue(loginPage.getErrorMessage().contains("Username and password do not match"),
+                "Error message text mismatch");
     }
 }

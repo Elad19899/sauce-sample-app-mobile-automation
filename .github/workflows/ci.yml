@@ -43,10 +43,3 @@ jobs:
           arch: x86_64
           profile: Nexus 6
           script: mvn clean test -DsuiteXmlFile=testng.xml
-          
-      - name: Upload Allure Results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results
-          path: allure-results

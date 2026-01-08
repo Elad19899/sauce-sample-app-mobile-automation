@@ -39,7 +39,7 @@ public class BasePage {
         waitForVisibility(locator);
         return driver.findElement(locator).getText();
     }
-    
+
     protected boolean isDisplayed(By locator) {
         try {
             return driver.findElement(locator).isDisplayed();
