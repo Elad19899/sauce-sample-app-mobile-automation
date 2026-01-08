@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sauce Demo Mobile Automation Suite" parallel="tests" thread-count="1">
+    
+    <listeners>
+        <listener class-name="com.saucedemo.utils.TestListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.saucedemo.tests.LoginTest"/>
+        </classes>
+    </test>
+    
+    <test name="Catalog Tests">
+        <classes>
+            <class name="com.saucedemo.tests.CatalogTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes>
+            <class name="com.saucedemo.tests.CartTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="com.saucedemo.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>
