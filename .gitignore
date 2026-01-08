@@ -16,4 +16,15 @@ target/
 .DS_Store
 
 # Other
-.qodo/
+
+# App build artifacts
+*.apk
+*.ipa
+
+# Test reports
+*.html
+*.xml
+*.txt
+
+# Local config
+config.properties
