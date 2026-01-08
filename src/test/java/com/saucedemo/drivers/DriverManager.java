@@ -7,6 +7,7 @@ import io.appium.java_client.android.options.UiAutomator2Options;
 import org.openqa.selenium.SessionNotCreatedException;
 
 import java.net.MalformedURLException;
+import java.net.URI;
 import java.net.URL;
 import java.io.File;
 import java.time.Duration;
@@ -55,7 +56,7 @@ public class DriverManager {
                 options.setNoReset(Boolean.parseBoolean(configLoader.getProperty("noReset", "false")));
                 options.setFullReset(Boolean.parseBoolean(configLoader.getProperty("fullReset", "false")));
 
-                originalDriver = new AndroidDriver(new URL("http://127.0.0.1:4723/"), options);
+                originalDriver = new AndroidDriver(URI.create("http://127.0.0.1:4723/").toURL(), options);
             } else {
                 throw new IllegalArgumentException("Platform " + platformName + " not supported yet.");
             }
